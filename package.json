@@ -1,0 +1,10 @@
+{
+  "name": "ceramic",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev"
+  },
+  "dependencies": {
+    "astro": "^5.3.1"
+  }
+}

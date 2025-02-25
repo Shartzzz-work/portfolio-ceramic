@@ -1,0 +1,60 @@
+:root {
+  --c-white: white;
+  --c-black: black;
+
+  --c-text-dark: var(--c-black);
+  --c-text-light: var(--c-white);
+  --c-text: var(--c-text-dark);
+
+  --c-bg: var(--c-white);
+
+  color: var(--c-text);
+  background-color: var(--c-bg);
+
+  font-family: system-ui, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+  text-rendering: optimizeSpeed;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  min-height: 100svh;
+  font-size: 100%;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+ul[role],
+ol[role] {
+  list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+:target {
+  scroll-margin-block: 5ex;
+}
